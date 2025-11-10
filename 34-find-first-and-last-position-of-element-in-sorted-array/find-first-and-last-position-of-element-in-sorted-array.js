@@ -35,5 +35,5 @@ var searchRange = function(nums, target) {
         }
         return rightTarget(l, r)
     }
-    return [leftTarget(0, nums.length), rightTarget(0, nums.length - 1)]
+    return [leftTarget(0, nums.length - 1), rightTarget(0, nums.length - 1)]
 };
